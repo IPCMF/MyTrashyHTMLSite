@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    display: flex;
+    background-color: hsl(0, 0%, 10%);
+}
+.logInButton{
+    background-color: hsl(0, 0%, 30%);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 9px;
+    width: 100px;
+    height: 50px;
+    transform: translate(2440px, 20px);
+}
+.logInButton:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+.logInButton:active{
+    background-color: hsl(0, 0%, 50%);
+}
+.signUpButton{
+    background-color: hsl(0, 0%, 30%);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 9px;
+    width: 100px;
+    height: 50px;
+    transform: translate(2220px, 20px);
+}
+.signUpButton:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+.signUpButton:active{
+    background-color: hsl(0, 0%, 50%);
+}
+.webPageText{
+    color: aliceblue;
+    font-size: 125%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin: 20px;
+    transform: translate(0px, 15px);
+}
+.webPageSeparator{
+    position: absolute;
+    width: 2560px;
+    height: 1px;
+    transform: translate(0px,80px);
+    border: none;
+    background-color: rgb(206, 206, 206);
+}
+.contents{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    position: absolute;
+    transform: translate(0px, 90px);
+}
